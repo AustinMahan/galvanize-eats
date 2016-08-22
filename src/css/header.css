@@ -4,9 +4,10 @@ header{
   color: white;
   background-color: rgba(140, 140, 140,0.5);
   height: 8%;
+  margin: 0px;
 }
 
 #topH2{
   padding-top: 10px;
-
+  margin-left: 20px;
 }

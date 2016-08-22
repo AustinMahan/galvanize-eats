@@ -18,14 +18,25 @@
         </select>
         <br>
         <label for="quant">Quantity</label><br>
-        <input type="text" name="quant" value="0" id="quant">
+        <input type="text" name="quant" value="1" id="quant">
         <button type="button" name="button" class="addingItem">Add Item</button>
       </form>
+      <br>
+      <form class="personInfo" action="index.html" method="post">
+        <label for="name">Name</label>
+        <input type="text" name="name" id="name">
+        <label for="phone">Phone Number</label>
+        <input type="text" name="name" id="phone">
+        <label for="address">Address</label>
+        <input type="text" name="name" id="address">
+        <button type="button" name="button" id="deliver">Deliver It!</button>
+      </form>
+    </div>
       <div class="cart">
         <div class="bottomCalcs">
-          <p>Subtotal: $<span class="subTot">0</span></p>
-          <p>Tax: $<span class="tax">0</span></p>
-          <p>Grand Total: $<span class="grand">0</span></p>
+          <p>Subtotal: <span class="subTot nums">0</span><span class="nums">$</span></p>
+          <p>Tax: <span class="nums"></span><span class="tax nums">0</span><span class="nums"></span><span class="nums">$</span></p>
+          <p>Grand Total: <span class="grand nums">0</span><span class="nums">$</span></p>
         </div>
       </div>
     </div>
