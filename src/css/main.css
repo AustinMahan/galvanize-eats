@@ -1,8 +1,16 @@
 /* add custom styles */
+body{
+  margin: 0px;
+  padding: 0px;
+}
+*{
+  font-family: "Times New Roman", Times, serif;
+}
 #openPic{
   background-image: url("../../media/restaurant-hero-image.jpg");
   background-repeat: no-repeat;
   height: 625px;
+  position: relative;
 }
 
 #button{
@@ -12,11 +20,13 @@
 }
 
 button{
+  margin-top: 10%;
+  font-size: 20px;
   width: 80%;
-  height: 6%;
+  height: 15%;
   background-color: #4dff4d;
-  position: relative;
-  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #first3{
@@ -29,3 +39,12 @@ button{
   width: 25%;
   margin-left: 15px;
 }
+
+#openPic > h1{
+  text-align: center;
+  color: white;
+  margin-top: 15%;
+  bottom: 300px;
+}
+
+h2
