@@ -1,5 +1,7 @@
 // add scripts
 
 $(document).on('ready', function() {
-  console.log('sanity check!');
+  $('button').click(function(){
+    window.location.href = 'order.html'
+  })
 });
