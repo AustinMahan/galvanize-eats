@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Order</title>
+
+    <link rel="stylesheet" href="css/header.css" media="screen" title="no title" charset="utf-8">
+    <link rel="stylesheet" href="css/footer.css" media="screen" title="no title" charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/order.css">
+  </head>
+  <body>
+    <header>
+      <h2 id="topH2">Galvanize Eats</h2>
+    </header>
+    <div class="allinfo">
+      <form class="orderForm">
+        <select class="selections" name="" size="8">
+        </select>
+        <br>
+        <label for="quant">Quantity</label><br>
+        <input type="text" name="quant" value="0" id="quant">
+        <button type="button" name="button" class="addingItem">Add Item</button>
+      </form>
+      <div class="cart">
+        <div class="bottomCalcs">
+          <p>Subtotal: $<span class="subTot">0</span></p>
+          <p>Tax: $<span class="tax">0</span></p>
+          <p>Grand Total: $<span class="grand">0</span></p>
+        </div>
+      </div>
+    </div>
+    <footer><span>&#64;Galvanize, 2015</span> <span>Denver, Colorado</span></footer>
+  </body>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+  <script type="text/javascript" src="js/order.js"></script>
+</html>

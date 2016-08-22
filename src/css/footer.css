@@ -1,0 +1,11 @@
+footer > span{
+  padding-left: 5%;
+  padding-right: 5%;
+}
+footer{
+  clear: both;
+  text-align: center;
+  color: white;
+  background-color: black;
+  height: 25px;
+}
