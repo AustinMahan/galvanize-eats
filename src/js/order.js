@@ -37,7 +37,8 @@ $(document).ready(function() {
   $('#deliver').click(function() {
     $.ajax({
       url: 'https://galvanize-eats-api.herokuapp.com/orders',
-      method: 'POST'
+      method: 'POST',
+      data: {name: $('#name').val(), address: $('#address').val(), phone: $('#phone').val()}
     }).done(function(succ) {
       alert(succ);
     }).fail(function(err) {
