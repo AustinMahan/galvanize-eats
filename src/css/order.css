@@ -64,7 +64,7 @@ form > label{
   margin-top: 50px;
   height: 600px;
   position: relative;
-  border: 1px solid black;
+  border: 1px solid lightgrey;
   background-color: white;
   float: left;
   width: 30%;
@@ -87,4 +87,8 @@ form > label{
 }
 .nums{
   float: right;
+}
+i{
+  width: 50px;
+  cursor: pointer;
 }
